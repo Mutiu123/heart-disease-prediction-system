@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd 
 import pickle as pk 
 import streamlit as st 
+import sklearn
+from sklearn.metrics import accuracy_score
 
 model = pk.load(open('model/heart_disease_model.pkl', 'rb')) 
 data = pd.read_csv("data/heart_disease.csv")
