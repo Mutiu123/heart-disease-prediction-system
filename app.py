@@ -6,7 +6,7 @@ import streamlit as st
 model = pk.load(open('model/heart_disease_model.pkl', 'rb')) 
 data = pd.read_csv("data/heart_disease.csv")
 
-st.header('**Heart Disease Prediction Model**')
+st.header('**Heart Disease Prediction System**')
 
 gender = st.selectbox('**Select Gender**', data['Gender'].unique())
 if gender == 'Male':
