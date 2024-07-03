@@ -1,4 +1,4 @@
-1. **Project Description**:
+## **Project Description**:
 Heart disease remains a significant global health concern, affecting millions of people each year. Early detection and accurate prediction of heart disease are crucial for effective prevention and timely intervention. In this project, we aim to develop a heart disease prediction system using machine learning techniques. By analysing patient data and identifying relevant risk factors, we can assist healthcare professionals in making informed decisions and improving patient outcomes.
 
    - The project aims to predict heart disease based on various features using a logistic regression model.
@@ -6,10 +6,10 @@ Heart disease remains a significant global health concern, affecting millions of
    - The project is implemented in Python using libraries like NumPy, pandas, and scikit-learn.
    - Hyperparameter tuning is performed using GridSearchCV to find the best value of the regularization parameter C.
 
-2. **Problem Statement**:
+## **Problem Statement**:
 The primary objective is to build a reliable predictive model that can assess the likelihood of heart disease based on patient characteristics. The problem involves binary classification: given a set of features (such as age, gender, cholesterol levels, smoking status, and blood pressure), I need to predict whether a patient is at risk of heart disease or not. The challenge lies in balancing accuracy, sensitivity (identifying true positive cases), and specificity (minimising false positives) to create a robust model.
 
-3. **Methodology**:
+## **Methodology**:
 
 1. **Data Preprocessing:**
    - **Data Loading**: We begin by loading the heart disease dataset. This dataset likely contains information about patients, including features like age, gender, cholesterol levels, and blood pressure.
@@ -36,7 +36,7 @@ The primary objective is to build a reliable predictive model that can assess th
      - **Area Under the Receiver Operating Characteristic (ROC-AUC)**: Measures the model's ability to distinguish between positive and negative cases.
 
 
-4. **Contributions**:
+## **Contributions**:
 
 1. **Data Preprocessing and Quality Assurance**:
    - **Handling Missing Values**: My contribution involves addressing missing data within the heart disease dataset. By using `data.dropna(inplace=True)`, you ensure that incomplete records do not adversely affect model training.
@@ -54,12 +54,12 @@ The primary objective is to build a reliable predictive model that can assess th
    - **Accuracy Assessment**: I evaluate the model's accuracy on both the training and test sets. This step provides insights into how well the model generalizes to unseen data.
    - **Precision, Recall, and F1-score**: Beyond accuracy, precision (true positive rate), recall (sensitivity), and F1-score (harmonic mean) help assess the model's performance across different aspects of prediction.
 
-5. **Impact and Practical Application**:
+## **Impact and Practical Application**:
    - My contributions extend beyond code. By building this heart disease prediction system, you empower healthcare professionals to make informed decisions. Early detection can lead to timely interventions, potentially saving lives.
    - Patient Empowerment: Patients can also benefit from this system. Awareness of their risk factors allows them to take proactive steps toward heart health, such as lifestyle modifications or seeking medical advice.
    - Educational Value: My work serves as an educational resource, demonstrating the application of machine learning in healthcare. It contributes to knowledge dissemination and fosters understanding among practitioners and students.
 
-5. **Code Breakdown and Explanations**:
+## **Code Breakdown and Explanations**:
 
 1. **Data Preprocessing:**
    - **Data Loading**: We load the heart disease dataset using `pd.read_csv("data/heart_disease.csv")`. This step ensures that we have access to the necessary patient data.
