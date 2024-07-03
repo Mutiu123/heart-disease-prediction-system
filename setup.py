@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     
 REPO_NAME = "Mutiu Adegboye"
 SRC_REPO = "src"
-LIST_OF_REQUIREMENTS = ["streamlit"]
+LIST_OF_REQUIREMENTS = ["streamlit", "scikit-learn"]
 
 setup(
     name = SRC_REPO,

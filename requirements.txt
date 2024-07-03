@@ -1,5 +1,6 @@
 streamlit
 
+scikit-learn
 
 #local pakages
 -e .
