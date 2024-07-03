@@ -4,9 +4,9 @@
 
 ## **Below are System Demo:**
 
-![The System Demo](https://github.com/Mutiu123/movie-recommender-system/blob/main/demo_image/demo.png)
+![The System Demo](https://github.com/Mutiu123/heart-disease-prediction-system/blob/main/demos/demo1.png)
 
-![The System Demo](https://github.com/Mutiu123/movie-recommender-system/blob/main/demo_image/demo2.png)
+![The System Demo](https://github.com/Mutiu123/heart-disease-prediction-system/blob/main/demos/demo2.png)
 
 
 ## **To run the model**
