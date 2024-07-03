@@ -1,0 +1,8 @@
+streamlit
+
+
+#local pakages
+-e .
+
+
+
