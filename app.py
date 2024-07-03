@@ -9,7 +9,7 @@ data = pd.read_csv("data/heart_disease.csv")
 st.header('Heart Disease Prediction Model')
 
 gender = st.selectbox('Select Gender', data['Gender'].unique())
-if getattr == 'Male':
+if gender == 'Male':
     gen = 1
 else:
     gen = 0
@@ -38,7 +38,7 @@ heartRate = st.number_input("Enter Patient HeartRate Status")
 glucose = st.number_input("Enter Patient Glucose Status")
 
 if st.button('Predict'):
-    input = np.array([[gender,age,currentSmoker,cigsPerDay,BPMeds,prevalentStroke,prevalentHyp,diabetes,
+    input = np.array([[gen,age,currentSmoker,cigsPerDay,BPMeds,prevalentStroke,prevalentHyp,diabetes,
                                                            totChol,sysBP,diaBP,BMI,heartRate,glucose]])
     output = model.predict(input)
     if output[0] == 0:
