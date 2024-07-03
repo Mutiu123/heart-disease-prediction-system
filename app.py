@@ -39,7 +39,7 @@ BMI = st.number_input("**Enter Patient BMI Status**")
 heartRate = st.number_input("**Enter Patient HeartRate Status**")
 glucose = st.number_input("**Enter Patient Glucose Status**")
 
-if st.button('**Predict**'):
+if st.button('**Click to Predict**'):
     input = np.array([[gen,age,currentSmoker,cigsPerDay,BPMeds,prevalentStroke,prevalentHyp,diabetes,
                                                            totChol,sysBP,diaBP,BMI,heartRate,glucose]])
     output = model.predict(input)
